@@ -1,0 +1,33 @@
+{
+  "name": "sass",
+  "version": "1.0.0",
+  "description": "Verkefnið felst í því að smíða vef eftir forskrift.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "browser-sync": "browser-sync start --server --files index.html styles.css",
+    "sass": "node-sass styles.scss styles.css -w",
+    "dev": "concurrently npm:sass npm:browser-sync",
+    "lint": "stylelint styles.scss --syntax scss"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stina13/H-pvekefni-1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Stina13/H-pvekefni-1/issues"
+  },
+  "homepage": "https://github.com/Stina13/H-pvekefni-1#readme",
+  "dependencies": {
+    "browser-sync": "^2.27.5",
+    "node-sass": "^6.0.1",
+    "node.js": "0.0.1-security"
+  },
+  "devDependencies": {
+    "concurrently": "^6.3.0",
+    "stylelint": "^13.13.1",
+    "stylelint-config-primer": "^11.1.1"
+  }
+}
