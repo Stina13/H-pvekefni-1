@@ -23,7 +23,8 @@
   "dependencies": {
     "browser-sync": "^2.27.5",
     "node-sass": "^6.0.1",
-    "node.js": "0.0.1-security"
+    "node.js": "0.0.1-security",
+    "sudo": "^1.0.3"
   },
   "devDependencies": {
     "concurrently": "^6.3.0",
