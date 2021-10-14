@@ -11,11 +11,14 @@ header{
   object-fit: cover;
   justify-content: space-evenly;
 }
-.taeknibudin{
-  left: 100%;
-}
-.bakgrunnmynd{
-  background-size: 30px;
+.kaplar{
+  background-image: url("https://images.unsplash.com/photo-1473831818960-c89731aabc3e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+  content: '';
+  top:0px;
+  right:0px;
+  bottom:0px;
+  left:0px;
+  background-repeat: no-repeat;
 }
 .tilbodsvika{
   width:100%;
@@ -27,6 +30,7 @@ header{
   display:flex;
   flex-direction: column;
 }
+
 .keyptu{
   font-size: x-large;
   font-weight: 400;
@@ -46,6 +50,7 @@ header{
   margin: 16px;
   padding:16px;
   line-height:25px;
+
 }
 .vöruhus{
   display:flex;
@@ -87,6 +92,8 @@ ul{
 .annad{
   color:#FEFEFE;
 }
+<<<<<<< HEAD
+=======
 .copyright{
   display: flex;
   flex-direction: row;
@@ -95,4 +102,5 @@ ul{
   color: #FEFEFE;
 }
 
+>>>>>>> 19b51380176ecd5a49fca351be0fa4bdc5fc89cb
 
