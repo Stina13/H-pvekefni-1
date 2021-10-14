@@ -1,0 +1,58 @@
+*{
+  margin: 0;
+  padding:0;
+}
+header{
+  display: flex;
+  margin: 16px;
+  padding: 2px;
+  flex-direction: row;
+  list-style: none;
+  object-fit: cover;
+  justify-content: space-evenly;
+}
+.taeknibudin{
+  left: 100%;
+}
+.bakgrunnmynd{
+  background-size: 30px;
+}
+.tilbodsvika{
+  width:100%;
+  height: 320px;
+  font-size: xx-large;
+  align-items: center;
+  justify-content:space-evenly ;
+  object-fit: cover;
+  display:flex;
+  flex-direction: column;
+}
+.keyptu{
+  font-size: x-large;
+  font-weight: 400;
+}
+.flug{
+  display:block;
+  width:30%;
+  align-items: center;
+  margin:30px;
+  padding: 16px;
+}
+.nyjast{
+  display: flex;
+  justify-content: space-evenly;
+  background: #E1CEC2;
+  height:200px;
+  margin: 16px;
+  padding:16px;
+}
+.vöruhus{
+  display:flex;
+  width:25%;
+  margin:16px;
+
+}
+ul{
+  list-style: none;
+  background: #FFFFFF;
+}
