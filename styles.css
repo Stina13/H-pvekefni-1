@@ -92,4 +92,15 @@ ul{
 .annad{
   color:#FEFEFE;
 }
+<<<<<<< HEAD
+=======
+.copyright{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background: #3C2A1E;
+  color: #FEFEFE;
+}
+
+>>>>>>> 19b51380176ecd5a49fca351be0fa4bdc5fc89cb
 
