@@ -78,6 +78,7 @@ ul{
   list-style: none;
   background: #FFFFFF;
 }
+<<<<<<< HEAD
 .opnunartimi{
   color:#FEFEFE;
 }
@@ -87,6 +88,9 @@ ul{
 .annad{
   color:#FEFEFE;
 }
+=======
+=======
+>>>>>>> 7eeed4b05f0cc8b7812572e576bfb71187f57dc9
 .copyright{
   display: flex;
   flex-direction: row;
@@ -94,3 +98,5 @@ ul{
   background: #3C2A1E;
   color: #FEFEFE;
 }
+
+
