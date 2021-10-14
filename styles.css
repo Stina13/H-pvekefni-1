@@ -72,9 +72,12 @@ ul{
 
 
 
-
-
-
+.efri{
+  display: flex;
+}
+.nedri {
+  display: flex;
+}
 
 
 
