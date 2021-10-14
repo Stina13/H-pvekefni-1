@@ -37,3 +37,53 @@
     z-index: 1000;
     pointer-events: none;
   }
+  html {
+    box-sizing: border-box;
+  }
+  /* og látum erfast á allt */
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  :root {
+    /* Grunn bilið okkar er 1rem == 16px */
+    --spacing: 1rem;
+    /* Hámarksbreidd á efni */
+    --max-width: 1400px;
+  
+    --color-text: #222;
+    --color-text-secondary: #222;
+    --color-link: #069;
+    --color-border: #ccc;
+  
+    /* Letur stillingar */
+    --font-size: 16px;
+    --font-family-base: 'Inter', Helvetica, Arial, sans-serif;
+    --font-family-heading: 'Playfair Display', Georgia, serif;
+  
+    /* Grid stillingar */
+    --columns: 12;
+    --gutter: 30px;
+    --offset: 20px;
+  }
+  body {
+    /* Útbýr bil á milli lóðréttra eininga */
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 100%;
+    gap: var(--gutter);
+  
+    margin: 0 auto;
+    width: calc(100% - (2 * var(--offset)));
+    max-width: var(--max-width);
+  }
+  main {
+    /* Útbýr bil á milli lóðréttra eininga */
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 100%;
+    gap: var(--gutter);
+  
+    /* setjum margin neðst, annars endar efni skyndilega */
+    margin-bottom: var(--gutter);
+  }
