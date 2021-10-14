@@ -78,9 +78,12 @@ ul{
   list-style: none;
   background: #FFFFFF;
 }
+=======
 .copyright{
   display: flex;
   flex-direction: row;
   justify-content: center;
   background: #3C2A1E;
 }
+
+
