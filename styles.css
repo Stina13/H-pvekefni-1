@@ -92,8 +92,6 @@ ul{
 .annad{
   color:#FEFEFE;
 }
-<<<<<<< HEAD
-=======
 .copyright{
   display: flex;
   flex-direction: row;
@@ -102,5 +100,24 @@ ul{
   color: #FEFEFE;
 }
 
->>>>>>> 19b51380176ecd5a49fca351be0fa4bdc5fc89cb
 
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(189, 162, 126, 0.555); 
+  max-width: 20%;
+  margin: 1rem;
+  padding: 1rem;
+}
+.img-container {
+  display: flex;
+  flex-direction: column;
+}
+.card-content {
+  display: flex;
+  flex-direction: column;
+}
+.card a {
+  text-decoration: none;
+  color: black;
+}
