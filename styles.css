@@ -19,6 +19,7 @@ header{
   bottom:0px;
   left:0px;
   background-repeat: no-repeat;
+  background-size: 100%;
 }
 .tilbodsvika{
   width:100%;
@@ -92,8 +93,6 @@ ul{
 .annad{
   color:#FEFEFE;
 }
-<<<<<<< HEAD
-=======
 .copyright{
   display: flex;
   flex-direction: row;
@@ -102,5 +101,4 @@ ul{
   color: #FEFEFE;
 }
 
->>>>>>> 19b51380176ecd5a49fca351be0fa4bdc5fc89cb
 
