@@ -42,17 +42,45 @@ header{
   display: flex;
   justify-content: space-evenly;
   background: #E1CEC2;
-  height:200px;
+  height:600px;
   margin: 16px;
   padding:16px;
+  line-height:25px;
 }
 .vöruhus{
   display:flex;
   width:25%;
-  margin:16px;
-
+  margin:30px;
+  height:260px;
+  line-height: 40px;
+  flex-direction: column;
+}
+.dæmi{
+  display: flex;
+  justify-content: space-evenly;
+  background: #E1CEC2;
+  height:600px;
+  margin: 16px;
+  padding:16px;
+  line-height:25px;
+}
+footer{
+  display:flex;
+  flex-direction: row;
+  height:260px;
+  justify-content: space-evenly;
+  background: #3C2A1E;
+}
+li{
+  list-style:none;
 }
 ul{
   list-style: none;
   background: #FFFFFF;
+}
+.copyright{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background: #3C2A1E;
 }
