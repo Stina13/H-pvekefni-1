@@ -19,6 +19,7 @@ header{
   bottom:0px;
   left:0px;
   background-repeat: no-repeat;
+  background-size: 100%;
 }
 .tilbodsvika{
   width:100%;
@@ -142,3 +143,4 @@ ul{
   display: flex;
   flex-direction: row;
 }
+
