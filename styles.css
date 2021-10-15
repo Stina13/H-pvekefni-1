@@ -100,14 +100,23 @@ ul{
   color: #FEFEFE;
 }
 
-
+.flokkar {
+  display: flex;
+}
+.flokkar li{
+  margin: 1ch;
+  background: #E1CEC2;
+}
+.efni{
+  background: #E1CEC2;
+}
 .card {
   display: flex;
   flex-direction: column;
-  background-color: rgba(189, 162, 126, 0.555); 
   max-width: 20%;
   margin: 1rem;
   padding: 1rem;
+  background-color: white;
 }
 .img-container {
   display: flex;
@@ -120,4 +129,16 @@ ul{
 .card a {
   text-decoration: none;
   color: black;
+}
+.cardl1{
+  display: flex;
+  flex-direction: row;
+}
+.card2{
+  display: flex;
+  flex-direction: row;
+}
+.card3{
+  display: flex;
+  flex-direction: row;
 }
