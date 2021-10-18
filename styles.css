@@ -37,11 +37,15 @@ header{
   font-weight: 400;
 }
 .flug{
-  display:block;
-  width:30%;
+  display:flex;
+  flex-direction: column;
+  width:100%;
   align-items: center;
   margin:30px;
   padding: 16px;
+}
+.flugmynd{
+  float:center;
 }
 .nyjast{
   display: flex;
@@ -153,7 +157,7 @@ header a{
 }
 .ad-img-container{
   display: flex;
-  width: 100%; 
+  width: 100%;
 }
 .ad-content {
   display: flex;
