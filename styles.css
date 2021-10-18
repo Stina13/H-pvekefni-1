@@ -10,6 +10,7 @@ header{
   list-style: none;
   object-fit: cover;
   justify-content: space-evenly;
+  object-position: right;
 }
 .kaplar{
   background-image: url("https://images.unsplash.com/photo-1473831818960-c89731aabc3e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
@@ -20,6 +21,12 @@ header{
   left:0px;
   background-repeat: no-repeat;
   background-size: 100%;
+}
+.kaplar input{
+  min-width: 30%;
+}
+header input{
+  min-width: 23%;
 }
 .tilbodsvika{
   width:100%;
