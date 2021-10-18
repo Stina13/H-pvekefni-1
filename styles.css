@@ -103,6 +103,7 @@ ul{
 
 .flokkar {
   display: flex;
+  margin: 0.5rem;
 }
 .flokkar li{
   margin: 1ch;
@@ -125,7 +126,11 @@ ul{
 }
 .card-content {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  align-items: flex-start;
+  position: static;
+  background: #E1CEC2;
+  
 }
 .card a {
   text-decoration: none;
@@ -185,3 +190,14 @@ header a{
 .tengdar h2 {
   margin: 1rem;
 }
+.eiginleikar {
+  text-align: center;
+}
+.haus {
+  margin: 1rem;
+}
+.haus h1{
+  margin-bottom: 1rem;
+  margin-top: 1em;
+}
+.haus h2{margin-top: 1em;}
