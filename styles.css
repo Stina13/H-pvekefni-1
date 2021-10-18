@@ -114,7 +114,7 @@ ul{
 .card {
   display: flex;
   flex-direction: column;
-  max-width: 20%;
+  max-width: 21.5%;
   margin: 1rem;
   padding: 1rem;
   background-color: white;
@@ -143,4 +143,45 @@ ul{
   display: flex;
   flex-direction: row;
 }
-
+header a{
+  color: black;
+  text-decoration: none;
+}
+.ad {
+  display: flex;
+  flex-direction: row;
+}
+.ad-img-container{
+  display: flex;
+  width: 100%; 
+}
+.ad-content {
+  display: flex;
+  flex-direction: column;
+}
+.ad-class {
+  display: flex;
+  flex-direction: row;
+  margin: 1ch;
+  background: #E1CEC2;
+}
+.kubbasett {
+  margin: 1rem;
+}
+.stærð {
+  margin: 1rem;
+}
+.stýringar {
+  margin: 1rem;
+}
+.vorucard {
+  display: flex;
+}
+.tengdar {
+  display: flex;
+  flex-direction: column;
+  background: #E1CEC2;
+}
+.tengdar h2 {
+  margin: 1rem;
+}
