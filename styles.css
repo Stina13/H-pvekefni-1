@@ -22,11 +22,15 @@ header{
   background-repeat: no-repeat;
   background-size: 100%;
 }
-.kaplar input{
-  min-width: 30%;
-}
 header input{
-  min-width: 23%;
+  min-width: 30%;
+  background-image: url("https://pixsector.com/cache/e7836840/av6584c34aabb39f00a10.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 10%;
+}
+header img{
+  position: absolute;
 }
 .tilbodsvika{
   width:100%;
@@ -169,26 +173,27 @@ header a{
 }
 .ad-img-container{
   display: flex;
-  width: 100%;
+  margin: 1rem;
 }
 .ad-content {
   display: flex;
   flex-direction: column;
+  margin: 1rem;
 }
 .ad-class {
   display: flex;
   flex-direction: row;
-  margin: 1ch;
+  margin-top: 1ch;
   background: #E1CEC2;
 }
 .kubbasett {
-  margin: 1rem;
+  margin-top: 1rem;
 }
 .stærð {
-  margin: 1rem;
+  margin-top: 1rem;
 }
 .stýringar {
-  margin: 1rem;
+  margin-top: 1rem;
 }
 .vorucard {
   display: flex;
@@ -202,7 +207,9 @@ header a{
   margin: 1rem;
 }
 .eiginleikar {
-  text-align: center;
+  margin: 1rem;
+  padding-left: 30rem;
+  padding-right: 30rem;
 }
 .haus {
   margin: 1rem;
