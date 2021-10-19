@@ -122,6 +122,8 @@ ul{
 .flokkar li{
   margin: 1ch;
   background: #E1CEC2;
+  border-radius: 5px;
+  padding: 0.3rem;
 }
 .efni{
   background: #E1CEC2;
@@ -148,6 +150,8 @@ ul{
   display: inline;
   margin-right: 0.7em;
   background: #E1CEC2;
+  border-radius: 5px;
+  padding: 0.3rem;
 }
 .card a {
   text-decoration: none;
