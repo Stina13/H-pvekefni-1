@@ -29,6 +29,9 @@ header input{
   background-position: right;
   background-size: 10%;
 }
+header img{
+  position: absolute;
+}
 .tilbodsvika{
   width:100%;
   height: 320px;
@@ -170,26 +173,27 @@ header a{
 }
 .ad-img-container{
   display: flex;
-  width: 100%;
+  margin: 1rem;
 }
 .ad-content {
   display: flex;
   flex-direction: column;
+  margin: 1rem;
 }
 .ad-class {
   display: flex;
   flex-direction: row;
-  margin: 1ch;
+  margin-top: 1ch;
   background: #E1CEC2;
 }
 .kubbasett {
-  margin: 1rem;
+  margin-top: 1rem;
 }
 .stærð {
-  margin: 1rem;
+  margin-top: 1rem;
 }
 .stýringar {
-  margin: 1rem;
+  margin-top: 1rem;
 }
 .vorucard {
   display: flex;
@@ -203,7 +207,9 @@ header a{
   margin: 1rem;
 }
 .eiginleikar {
-  text-align: center;
+  margin: 1rem;
+  padding-left: 30rem;
+  padding-right: 30rem;
 }
 .haus {
   margin: 1rem;
