@@ -42,7 +42,6 @@ header img{
   display:flex;
   flex-direction: column;
 }
-
 .keyptu{
   font-size: x-large;
   font-weight: 400;
@@ -143,9 +142,12 @@ ul{
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  position: static;
+  width: fit-content;
+}
+.card-content p {
+  display: inline;
+  margin-right: 0.7em;
   background: #E1CEC2;
-  
 }
 .card a {
   text-decoration: none;
