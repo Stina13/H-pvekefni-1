@@ -149,6 +149,7 @@ ul{
   margin: 1rem;
   padding: 1rem;
   background-color: white;
+  border-radius: 1%;
 }
 .img-container {
   display: flex;
@@ -241,3 +242,36 @@ header a{
   margin-top: 1em;
 }
 .haus h2{margin-top: 1em;}
+.uppl{
+  margin: 1rem;
+}
+.kaup{
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+}
+.kaup img{
+  max-width: 25%;
+}
+fieldset{
+  display: flex;
+  flex-direction: column;
+  max-width: fit-content;
+  border: none;
+}
+.efri1{
+  display: flex;
+  flex-direction: row;
+}
+.efri2{
+  display: flex;
+  flex-direction: row;
+}
+.nedri1{
+  display: flex;
+  flex-direction: row;
+}
+.nedri2{
+  display: flex;
+  flex-direction: row;
+}
