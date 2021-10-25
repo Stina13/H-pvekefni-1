@@ -58,16 +58,12 @@ header img{
   font-weight: 400;
 }
 .flug{
-  display:flex;
-  flex-direction: column;
+  display:absolute;
   width:100%;
-  align-items: center;
-  margin:30px;
-  padding: 16px;
+  margin:16px;
+  padding:16px;
 }
-.flugmynd{
-  float:center;
-}
+
 .nyjast{
   display: flex;
   justify-content: space-evenly;
@@ -79,12 +75,18 @@ header img{
 
 }
 .vöruhus{
-  display:flex;
-  width:25%;
-  margin:30px;
-  height:260px;
-  line-height: 40px;
-  flex-direction: column;
+  display:absolute;
+  width:100%;
+  margin:16px;
+  padding:16px;
+}
+.vöruhustexti{
+  width:50%;
+  float:left;
+}
+.vöruhusmynd{
+  float:right;
+  width:75%;
 }
 .dæmi{
   display: flex;
@@ -95,55 +97,7 @@ header img{
   padding:16px;
   line-height:25px;
 }
-.frontcard1{
-  display:flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width:330px;
-  height:330px;
-}
-.frontcard2{
-  display:flex;
-  flex-direction: column;
-  width:330px;
-  height:330px;
-}
-.frontcard3{
-  display:flex;
-  flex-direction: column;
-  width:330px;
-  height:330px;
-}
-.frontcard4{
-  display:flex;
-  flex-direction: column;
-  width:330px;
-  height:330px;
-}
-.frontcard5{
-  display:flex;
-  flex-direction: column;
-  width:330px;
-  height:330px;
-}
-.frontcard6{
-  display: flex;
-  flex-direction: column;
-  width:330px;
-  height:330px;
-}
-.frontcard7{
-  display: flex;
-  flex-direction: column;
-  width:330px;
-  height:330px;
-}
-.frontcard8{
-  display: flex;
-  flex-direction: column;
-  width:330px;
-  height:330px;
-}
+
 footer{
   display:flex;
   flex-direction: row;
@@ -210,6 +164,7 @@ ul{
   display: inline;
   margin-right: 0.7em;
   background: #E1CEC2;
+
 
   border-radius: 5px;
   padding: 0.3rem;
