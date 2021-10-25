@@ -286,3 +286,12 @@ header a{
   margin-top: 1em;
 }
 .haus h2{margin-top: 1em;}
+.uppl{
+  display: flex;
+  flex-direction: column;
+}
+.kaup{
+  display: flex;
+  flex-direction: column;
+}
+
