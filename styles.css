@@ -26,12 +26,10 @@ header{
   opacity: 0.6;
   background-image: url("https://images.unsplash.com/photo-1473831818960-c89731aabc3e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
   background-repeat: no-repeat;
-  background-position: 50% 0;
+  background-position: 50%;
   background-size: cover;
 }
-.titill {
-  position: relative;
-}
+
 header input{
   min-width: 30%;
   background-image: url("https://pixsector.com/cache/e7836840/av6584c34aabb39f00a10.png");
@@ -63,11 +61,75 @@ header img{
   margin:16px;
   padding:16px;
 }
-
+.frontcard1{
+  display: flex;
+  flex-direction: column;
+  max-width: 21.5%;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: white;
+}
+.frontcard2{
+  display: flex;
+  flex-direction: column;
+  max-width: 21.5%;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: white;
+}
+.frontcard3{
+  display: flex;
+  flex-direction: column;
+  max-width: 21.5%;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: white;
+}
+.frontcard4{
+  display: flex;
+  flex-direction: column;
+  max-width: 21.5%;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: white;
+}
+.frontcard5{
+  display: flex;
+  flex-direction: column;
+  max-width: 21.5%;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: white;
+}
+.frontcard6{
+  display: flex;
+  flex-direction: column;
+  max-width: 21.5%;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: white;
+}
+.frontcard7{
+  display: flex;
+  flex-direction: column;
+  max-width: 21.5%;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: white;
+}
+.frontcard8{
+  display: flex;
+  flex-direction: column;
+  max-width: 21.5%;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: white;
+}
 .nyjast{
   display: flex;
   justify-content: space-evenly;
-  background: #E1CEC2;
+  background: rgb(255,255,255);
+  background: linear-gradient(357deg, rgba(255,255,255,0) 25%, rgba(225,206,194,1) 25%, rgba(225,206,194,1) 75%, rgba(255,255,255,0) 75%);
   height:600px;
   margin: 16px;
   padding:16px;
@@ -91,7 +153,8 @@ header img{
 .dæmi{
   display: flex;
   justify-content: space-evenly;
-  background: #E1CEC2;
+  background: rgb(255,255,255);
+  background: linear-gradient(357deg, rgba(255,255,255,0) 25%, rgba(225,206,194,1) 25%, rgba(225,206,194,1) 75%, rgba(255,255,255,0) 75%);
   height:600px;
   margin: 16px;
   padding:16px;
@@ -164,7 +227,6 @@ ul{
   display: inline;
   margin-right: 0.7em;
   background: #E1CEC2;
-
   border-radius: 5px;
   padding: 0.3rem;
 }
