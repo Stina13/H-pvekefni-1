@@ -1,0 +1,26 @@
+.flug{
+  display:grid;
+  grid-template-columns: repeat(2, 2fr);
+  grid-template-rows: repeat(1, 1fr);
+  object-fit: fill;
+  width:100%;
+}
+.flugmynd{
+  grid-column: 2/2;
+}
+.flugtexti{
+  grid-column:1/2;
+}
+.vöruhus{
+  display:grid;
+  grid-template-columns: repeat(2, 2fr);
+  grid-template-rows: repeat(1, 1fr);
+  object-fit: fill;
+  width:100%;
+}
+.vöruhustexti{
+  grid-column:2/2;
+}
+.vöruhusmynd{
+  grid-column: 1/2;
+}
