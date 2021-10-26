@@ -61,80 +61,17 @@ header img{
   margin:16px;
   padding:16px;
 }
-.frontcard1{
-  display: flex;
-  flex-direction: column;
-  max-width: 21.5%;
-  margin: 1rem;
-  padding: 1rem;
-  background-color: white;
-}
-.frontcard2{
-  display: flex;
-  flex-direction: column;
-  max-width: 21.5%;
-  margin: 1rem;
-  padding: 1rem;
-  background-color: white;
-}
-.frontcard3{
-  display: flex;
-  flex-direction: column;
-  max-width: 21.5%;
-  margin: 1rem;
-  padding: 1rem;
-  background-color: white;
-}
-.frontcard4{
-  display: flex;
-  flex-direction: column;
-  max-width: 21.5%;
-  margin: 1rem;
-  padding: 1rem;
-  background-color: white;
-}
-.frontcard5{
-  display: flex;
-  flex-direction: column;
-  max-width: 21.5%;
-  margin: 1rem;
-  padding: 1rem;
-  background-color: white;
-}
-.frontcard6{
-  display: flex;
-  flex-direction: column;
-  max-width: 21.5%;
-  margin: 1rem;
-  padding: 1rem;
-  background-color: white;
-}
-.frontcard7{
-  display: flex;
-  flex-direction: column;
-  max-width: 21.5%;
-  margin: 1rem;
-  padding: 1rem;
-  background-color: white;
-}
-.frontcard8{
-  display: flex;
-  flex-direction: column;
-  max-width: 21.5%;
-  margin: 1rem;
-  padding: 1rem;
-  background-color: white;
-}
+
 .nyjast{
   display: flex;
+  flex-direction: row;
   justify-content: space-evenly;
   background: rgb(255,255,255);
-  background: linear-gradient(357deg, rgba(255,255,255,0) 25%, rgba(225,206,194,1) 25%, rgba(225,206,194,1) 75%, rgba(255,255,255,0) 75%);
+  background: linear-gradient(358deg, rgba(255,255,255,0) 11%, rgba(225,206,194,1) 11%, rgba(225,206,194,1) 75%, rgba(255,255,255,0) 75%);
   height:600px;
-  margin: 16px;
-  padding:16px;
+  margin: 0;
+  padding:0;
   line-height:25px;
-
 }
 .vöruhus{
   display:absolute;
@@ -142,22 +79,15 @@ header img{
   margin:16px;
   padding:16px;
 }
-.vöruhustexti{
-  width:50%;
-  float:left;
-}
-.vöruhusmynd{
-  float:right;
-  width:75%;
-}
+
 .dæmi{
   display: flex;
   justify-content: space-evenly;
   background: rgb(255,255,255);
-  background: linear-gradient(357deg, rgba(255,255,255,0) 25%, rgba(225,206,194,1) 25%, rgba(225,206,194,1) 75%, rgba(255,255,255,0) 75%);
+  background: linear-gradient(358deg, #3C2A1E 11%, rgba(225,206,194,1) 11%, rgba(225,206,194,1) 75%, rgba(255,255,255,1) 75%);
   height:600px;
-  margin: 16px;
-  padding:16px;
+  margin: 0;
+  padding:0;
   line-height:25px;
 }
 
