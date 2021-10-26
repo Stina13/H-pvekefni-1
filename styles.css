@@ -1,6 +1,18 @@
 *{
+  /*box-sizing: border-box;*/
   margin: 0;
   padding:0;
+}
+.wrapper {
+  /* Útbýr bil á milli lóðréttra eininga */
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 100%;
+  gap: var(--gutter);
+
+  margin: 0 auto;
+  width: calc(100% - (2 * var(--offset)));
+  max-width: var(--max-width);
 }
 header{
   display: flex;
@@ -12,6 +24,27 @@ header{
   justify-content: space-evenly;
   object-position: right;
 }
+/*
+.grid{
+  margin: 0 auto;
+  max-width: 1440.27px;
+  overflow: hidden;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: 15px;
+}
+.h2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 80px;
+  padding-top: 28px;
+  padding-bottom: 27px;
+}
+*/
 .kaplar {
   position: relative;
 }
