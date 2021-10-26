@@ -302,7 +302,9 @@ header a{
   margin-bottom: 1rem;
   margin-top: 1em;
 }
-.haus h2{margin-top: 1em;}
+.haus h2{
+  margin-top: 1em;
+}
 .uppl{
   margin: 1rem;
 }
@@ -323,16 +325,31 @@ fieldset{
 .efri1{
   display: flex;
   flex-direction: row;
+  margin: 1rem;
 }
 .efri2{
   display: flex;
   flex-direction: row;
+  margin: 1rem;
 }
 .nedri1{
   display: flex;
   flex-direction: row;
+  margin: 1rem;
 }
 .nedri2{
   display: flex;
   flex-direction: row;
+  margin: 1rem;
+}
+button{
+  
+  background-color:#5f4330;
+  border: none;
+  color: white;
+  float: left;
+  width: 8rem;
+  height: 2rem;
+  font-size: 12px;
+  border-radius: 8px;
 }
