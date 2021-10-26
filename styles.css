@@ -4,8 +4,8 @@
 }
 header{
   display: flex;
-  margin: 16px;
-  padding: 2px;
+  margin: 1rem;
+  padding: 0.125rem;
   flex-direction: row;
   list-style: none;
   object-fit: cover;
@@ -41,7 +41,7 @@ header img{
 }
 .tilbodsvika{
   width:100%;
-  height: 320px;
+  height: 20rem;
   font-size: xx-large;
   align-items: center;
   justify-content:space-evenly ;
@@ -57,8 +57,8 @@ header img{
 .flug{
   display:absolute;
   width:100%;
-  margin:16px;
-  padding:16px;
+  margin:1rem;
+  padding:1rem;
 }
 .frontcard1{
   display: flex;
@@ -129,17 +129,17 @@ header img{
   justify-content: space-evenly;
   background: rgb(255,255,255);
   background: linear-gradient(357deg, rgba(255,255,255,0) 25%, rgba(225,206,194,1) 25%, rgba(225,206,194,1) 75%, rgba(255,255,255,0) 75%);
-  height:600px;
-  margin: 16px;
-  padding:16px;
-  line-height:25px;
+  height:37.5rem;
+  margin: 1rem;
+  padding:1rem;
+  line-height:1.563rem;
 
 }
 .vöruhus{
   display:absolute;
   width:100%;
-  margin:16px;
-  padding:16px;
+  margin:1rem;
+  padding:1rem;
 }
 .vöruhustexti{
   width:50%;
@@ -154,16 +154,16 @@ header img{
   justify-content: space-evenly;
   background: rgb(255,255,255);
   background: linear-gradient(357deg, rgba(255,255,255,0) 25%, rgba(225,206,194,1) 25%, rgba(225,206,194,1) 75%, rgba(255,255,255,0) 75%);
-  height:600px;
-  margin: 16px;
-  padding:16px;
-  line-height:25px;
+  height:37.5rem;
+  margin: 1rem;
+  padding:1rem;
+  line-height: 1.563rem;
 }
 
 footer{
   display:flex;
   flex-direction: row;
-  height:260px;
+  height:16.25rem;
   justify-content: space-evenly;
   background: #3C2A1E;
 }
@@ -198,7 +198,7 @@ ul{
 .flokkar li{
   margin: 1ch;
   background: #E1CEC2;
-  border-radius: 5px;
+  border-radius: 0.313rem;
   padding: 0.3rem;
 }
 .efni{
@@ -227,7 +227,7 @@ ul{
   display: inline;
   margin-right: 0.7em;
   background: #E1CEC2;
-  border-radius: 5px;
+  border-radius: 0.313rem;
   padding: 0.3rem;
 }
 .card a {
@@ -397,7 +397,6 @@ button{
   line-height: 3rem;
   border-bottom: 0.125rem solid white;
   width: 28rem;
-
 }
 .annad li {
   font-style: normal;
@@ -406,7 +405,6 @@ button{
   line-height: 1.5rem;
   margin-top: 0.25rem;
 }
-
 .copyright {
   font-family: Lato, Helvetica, sans-serif;  
   font-size: 0.875rem;
