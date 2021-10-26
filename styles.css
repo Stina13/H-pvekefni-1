@@ -4,8 +4,8 @@
 }
 header{
   display: flex;
-  margin: 16px;
-  padding: 2px;
+  margin: 1rem;
+  padding: 0.125rem;
   flex-direction: row;
   list-style: none;
   object-fit: cover;
@@ -17,6 +17,7 @@ header{
 }
 .kaplar:before {
   content: ' ';
+  background-image: url("https://images.unsplash.com/photo-1473831818960-c89731aabc3e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
   display: block;
   position: absolute;
   left: 0;
@@ -24,12 +25,10 @@ header{
   width: 100%;
   height: 100%;
   opacity: 0.6;
-  background-image: url("https://images.unsplash.com/photo-1473831818960-c89731aabc3e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
   background-repeat: no-repeat;
-  background-position: 50%;
   background-size: cover;
+  background-position: 100%;
 }
-
 header input{
   min-width: 30%;
   background-image: url("https://pixsector.com/cache/e7836840/av6584c34aabb39f00a10.png");
@@ -42,7 +41,7 @@ header img{
 }
 .tilbodsvika{
   width:100%;
-  height: 320px;
+  height: 20rem;
   font-size: xx-large;
   align-items: center;
   justify-content:space-evenly ;
@@ -58,8 +57,8 @@ header img{
 .flug{
   display:absolute;
   width:100%;
-  margin:16px;
-  padding:16px;
+  margin:1rem;
+  padding:1rem;
 }
 .frontcard1{
   display: flex;
@@ -130,17 +129,17 @@ header img{
   justify-content: space-evenly;
   background: rgb(255,255,255);
   background: linear-gradient(357deg, rgba(255,255,255,0) 25%, rgba(225,206,194,1) 25%, rgba(225,206,194,1) 75%, rgba(255,255,255,0) 75%);
-  height:600px;
-  margin: 16px;
-  padding:16px;
-  line-height:25px;
+  height:37.5rem;
+  margin: 1rem;
+  padding:1rem;
+  line-height:1.563rem;
 
 }
 .vöruhus{
   display:absolute;
   width:100%;
-  margin:16px;
-  padding:16px;
+  margin:1rem;
+  padding:1rem;
 }
 .vöruhustexti{
   width:50%;
@@ -155,16 +154,16 @@ header img{
   justify-content: space-evenly;
   background: rgb(255,255,255);
   background: linear-gradient(357deg, rgba(255,255,255,0) 25%, rgba(225,206,194,1) 25%, rgba(225,206,194,1) 75%, rgba(255,255,255,0) 75%);
-  height:600px;
-  margin: 16px;
-  padding:16px;
-  line-height:25px;
+  height:37.5rem;
+  margin: 1rem;
+  padding:1rem;
+  line-height: 1.563rem;
 }
 
 footer{
   display:flex;
   flex-direction: row;
-  height:260px;
+  height:16.25rem;
   justify-content: space-evenly;
   background: #3C2A1E;
 }
@@ -199,7 +198,7 @@ ul{
 .flokkar li{
   margin: 1ch;
   background: #E1CEC2;
-  border-radius: 5px;
+  border-radius: 0.313rem;
   padding: 0.3rem;
 }
 .efni{
@@ -228,7 +227,7 @@ ul{
   display: inline;
   margin-right: 0.7em;
   background: #E1CEC2;
-  border-radius: 5px;
+  border-radius: 0.313rem;
   padding: 0.3rem;
 }
 .card a {
@@ -302,7 +301,9 @@ header a{
   margin-bottom: 1rem;
   margin-top: 1em;
 }
-.haus h2{margin-top: 1em;}
+.haus h2{
+  margin-top: 1em;
+}
 .uppl{
   margin: 1rem;
 }
@@ -315,18 +316,93 @@ fieldset{
 .efri1{
   display: flex;
   flex-direction: row;
+  margin: 1rem;
 }
 .efri2{
   display: flex;
   flex-direction: row;
+  margin: 1rem;
 }
 .nedri1{
   display: flex;
   flex-direction: row;
+  margin: 1rem;
 }
 .nedri2{
   display: flex;
   flex-direction: row;
+  margin: 1rem;
+}
+button{
+  background-color:#5f4330;
+  border: none;
+  color: white;
+  float: left;
+  width: 8rem;
+  height: 2rem;
+  font-size: 0.75rem;
+  border-radius: 0.25rem;
+}
+.opnunartimi{
+  font-family: Lato, Helvetica, sans-serif;
+}
+.opnunartimi h3 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2rem;
+  line-height: 3rem;
+  border-bottom: 0.125rem solid white;
+  width: 28rem;
+}
+.opnunartimi li {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-style: normal;
+  font-weight: normal;
+  margin-top: 0.25rem;
+}
+.hafdu{
+  font-family: Lato, Helvetica, sans-serif;
+}
+.hafdu h3{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2rem;
+  line-height: 3rem;
+  border-bottom: 0.125rem solid white;
+  width: 28rem;
+}
+.hafdu li {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-style: normal;
+  font-weight: normal;
+  margin-top: 0.25rem;
+}
+.annad{
+  font-family: Lato, Helvetica, sans-serif;  
+}
+.annad h3{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2rem;
+  line-height: 3rem;
+  border-bottom: 0.125rem solid white;
+  width: 28rem;
+}
+.annad li {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-top: 0.25rem;
+}
+.copyright {
+  font-family: Lato, Helvetica, sans-serif;  
+  font-size: 0.875rem;
+  line-height: 1rem;
+  padding: 1rem;
+  border-top: 0.063rem solid #6F4E37;
 }
 .uppl-content{
   display: flex;
@@ -340,6 +416,7 @@ fieldset{
 }
 .kaup img{
   max-width: 25%;
+  margin-right: 2rem;
 }
 .kaup-content{
   display: flex;
@@ -349,4 +426,7 @@ fieldset{
 .order{
   display: flex;
   flex-direction: row;
+}
+.kaup-cards{
+  border-bottom: solid;
 }
