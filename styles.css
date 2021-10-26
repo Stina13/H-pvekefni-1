@@ -336,3 +336,8 @@ fieldset{
   display: flex;
   flex-direction: row;
 }
+.uppl-content{
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+}
