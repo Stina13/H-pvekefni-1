@@ -343,43 +343,9 @@ header a{
 .haus h2{
   margin-top: 1em;
 }
-<<<<<<< HEAD
-button{
-=======
-.uppl{
-  margin: 1rem;
-}
-fieldset{
-  display: flex;
-  flex-direction: column;
-  max-width: fit-content;
-  border: none;
-}
-.efri1{
-  display: flex;
-  flex-direction: row;
-  margin: 1rem;
-}
-.efri2{
-  display: flex;
-  flex-direction: row;
-  margin: 1rem;
-}
-.nedri1{
-  display: flex;
-  flex-direction: row;
-  margin: 1rem;
-}
-.nedri2{
-  display: flex;
-  flex-direction: row;
-
-  margin: 1rem;
-}
 .button1{
   font-style: normal;
   font-weight: bold;
->>>>>>> f21098a40496db5bf6063b4626d1c1fd7586d850
   background-color:#5f4330;
   border: 0.125rem solid #3C2A1E;
   color: white;
@@ -540,9 +506,6 @@ fieldset{
   display: flex;
   flex-direction: row;
 }
-<<<<<<< HEAD
 .kaup-cards{
   border-bottom: solid;
 }
-=======
->>>>>>> f21098a40496db5bf6063b4626d1c1fd7586d850
