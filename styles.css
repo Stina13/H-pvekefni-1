@@ -1,7 +1,19 @@
 *{
+  /*box-sizing: border-box;*/
   margin: 0;
   padding:0;
   font-family: Lato, Helvetica, sans-serif;
+}
+.wrapper {
+  /* Útbýr bil á milli lóðréttra eininga */
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 100%;
+  gap: var(--gutter);
+
+  margin: 0 auto;
+  width: calc(100% - (2 * var(--offset)));
+  max-width: var(--max-width);
 }
 header{
   display: flex;
@@ -17,6 +29,7 @@ header{
   font-family: 'Lora', serif;
   font-size: 2.5rem;
 }
+
 .kaplar {
   position: relative;
 }
