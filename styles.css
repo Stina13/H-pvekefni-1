@@ -307,14 +307,6 @@ header a{
 .uppl{
   margin: 1rem;
 }
-.kaup{
-  display: flex;
-  flex-direction: column;
-  margin: 1rem;
-}
-.kaup img{
-  max-width: 25%;
-}
 fieldset{
   display: flex;
   flex-direction: column;
@@ -416,4 +408,21 @@ button{
   display: flex;
   flex-direction: column;
   margin: 1rem;
+}
+.kaup{
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+}
+.kaup img{
+  max-width: 25%;
+}
+.kaup-content{
+  display: flex;
+  flex-direction: row;
+  margin: 1rem;
+}
+.order{
+  display: flex;
+  flex-direction: row;
 }
