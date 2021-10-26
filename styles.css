@@ -29,7 +29,6 @@ header{
   font-family: 'Lora', serif;
   font-size: 2.5rem;
 }
-
 .kaplar {
   position: relative;
 }
@@ -44,7 +43,6 @@ header{
   height: 100%;
   opacity: 0.6;
   background-repeat: no-repeat;
-
   background-position: 50%;
   background-size: cover;
 }
@@ -84,6 +82,7 @@ header img{
   width:100%;
   margin:1rem;
   padding:1rem;
+  line-height:1.8rem;
 }
 .frontcard1{
   display: flex;
@@ -154,7 +153,6 @@ header img{
   flex-direction: row;
   justify-content: space-evenly;
   background: rgb(255,255,255);
-
   background: linear-gradient(358deg, rgba(255,255,255,0) 11%, rgba(225,206,194,1) 11%, rgba(225,206,194,1) 75%, rgba(255,255,255,0) 75%);
   height:37.5rem;
   margin: 0;
@@ -167,7 +165,12 @@ header img{
   margin:1rem;
   padding:1rem;
 }
-
+.vöruhustexti{
+  margin:1rem;
+  padding:1rem;
+  margin-top:-1rem;
+  line-height: 2rem;
+}
 .dæmi{
   display: flex;
   justify-content: space-evenly;
