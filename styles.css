@@ -491,8 +491,8 @@ fieldset{
   display: flex;
   flex-direction: row;
   margin: 1rem;
-  justify-content: space-between;
-  align-items: flex-start;
+  width: 50%;
+  align-items: center;
 }
 .order{
   display: flex;
@@ -504,4 +504,5 @@ fieldset{
 .kaup-inner{
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
