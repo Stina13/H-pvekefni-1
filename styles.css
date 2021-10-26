@@ -9,11 +9,11 @@
   display: grid;
   grid-template-rows: auto;
   grid-template-columns: 100%;
-  gap: var(--gutter);
+  gap: var(30px);
 
   margin: 0 auto;
-  width: calc(100% - (2 * var(--offset)));
-  max-width: var(--max-width);
+  width: calc(100% - (2 * var(20px)));
+  max-width: var(1400px);
 }
 header{
   display: flex;
@@ -27,6 +27,11 @@ header{
   position:relative;
 }
 .taeknibudin{
+  font-family: 'Lora', serif;
+  font-size: 2.5rem;
+  position:relative;
+}
+.taeknibudinheader{
   font-family: 'Lora', serif;
   font-size: 2.5rem;
   position:relative;
