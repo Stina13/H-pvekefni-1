@@ -1,6 +1,19 @@
 *{
+  /*box-sizing: border-box;*/
   margin: 0;
   padding:0;
+  font-family: Lato, Helvetica, sans-serif;
+}
+.wrapper {
+  /* Útbýr bil á milli lóðréttra eininga */
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 100%;
+  gap: var(--gutter);
+
+  margin: 0 auto;
+  width: calc(100% - (2 * var(--offset)));
+  max-width: var(--max-width);
 }
 header{
   display: flex;
@@ -12,6 +25,11 @@ header{
   justify-content: space-evenly;
   object-position: right;
 }
+.taeknibudin{
+  font-family: 'Lora', serif;
+  font-size: 2.5rem;
+}
+
 .kaplar {
   position: relative;
 }
@@ -26,9 +44,16 @@ header{
   height: 100%;
   opacity: 0.6;
   background-repeat: no-repeat;
+
+  background-position: 50%;
+  background-size: cover;
+}
+
+/*
   background-size: cover;
   background-position: 100%;
-}
+} */
+
 header input{
   min-width: 30%;
   background-image: url("https://pixsector.com/cache/e7836840/av6584c34aabb39f00a10.png");
@@ -126,13 +151,22 @@ header img{
 }
 .nyjast{
   display: flex;
+  flex-direction: row;
   justify-content: space-evenly;
   background: rgb(255,255,255);
+
+  background: linear-gradient(358deg, rgba(255,255,255,0) 11%, rgba(225,206,194,1) 11%, rgba(225,206,194,1) 75%, rgba(255,255,255,0) 75%);
+  height:600px;
+  margin: 0;
+  padding:0;
+  line-height:25px;
+
   background: linear-gradient(357deg, rgba(255,255,255,0) 25%, rgba(225,206,194,1) 25%, rgba(225,206,194,1) 75%, rgba(255,255,255,0) 75%);
   height:37.5rem;
   margin: 1rem;
   padding:1rem;
   line-height:1.563rem;
+
 
 }
 .vöruhus{
@@ -141,23 +175,24 @@ header img{
   margin:1rem;
   padding:1rem;
 }
-.vöruhustexti{
-  width:50%;
-  float:left;
-}
-.vöruhusmynd{
-  float:right;
-  width:75%;
-}
+
 .dæmi{
   display: flex;
   justify-content: space-evenly;
   background: rgb(255,255,255);
+
+  background: linear-gradient(358deg, #3C2A1E 11%, rgba(225,206,194,1) 11%, rgba(225,206,194,1) 75%, rgba(255,255,255,1) 75%);
+  height:600px;
+  margin: 0;
+  padding:0;
+  line-height:25px;
+
   background: linear-gradient(357deg, rgba(255,255,255,0) 25%, rgba(225,206,194,1) 25%, rgba(225,206,194,1) 75%, rgba(255,255,255,0) 75%);
   height:37.5rem;
   margin: 1rem;
   padding:1rem;
   line-height: 1.563rem;
+
 }
 
 footer{
@@ -227,7 +262,11 @@ ul{
   display: inline;
   margin-right: 0.7em;
   background: #E1CEC2;
+
+  border-radius: 5px;
+
   border-radius: 0.313rem;
+
   padding: 0.3rem;
 }
 .card a {
@@ -304,9 +343,85 @@ header a{
 .haus h2{
   margin-top: 1em;
 }
+<<<<<<< HEAD
 button{
-  background-color:#5f4330;
+=======
+.uppl{
+  margin: 1rem;
+}
+fieldset{
+  display: flex;
+  flex-direction: column;
+  max-width: fit-content;
   border: none;
+}
+.efri1{
+  display: flex;
+  flex-direction: row;
+  margin: 1rem;
+}
+.efri2{
+  display: flex;
+  flex-direction: row;
+  margin: 1rem;
+}
+.nedri1{
+  display: flex;
+  flex-direction: row;
+  margin: 1rem;
+}
+.nedri2{
+  display: flex;
+  flex-direction: row;
+
+  margin: 1rem;
+}
+.button1{
+  font-style: normal;
+  font-weight: bold;
+>>>>>>> f21098a40496db5bf6063b4626d1c1fd7586d850
+  background-color:#5f4330;
+  border: 0.125rem solid #3C2A1E;
+  color: white;
+  float: left;
+  width: 11.063rem;
+  height: 2.75rem;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  border-radius: 0.313rem;
+}
+.button2{
+  font-style: normal;
+  font-weight: bold;
+  background-color:white;
+  border: 0.125rem solid #6F4E37;
+  color: black;
+  float: left;
+  width: 18.75rem;
+  height: 2.75rem;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  border-radius: 0.313rem;
+}
+.button3{
+  font-style: normal;
+  font-weight: bold;
+  background-color:#5f4330;
+  border: 0.125rem solid #3C2A1E;
+  color: white;
+  float: left;
+  width: 11rem;
+  height: 2.75rem;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  border-radius: 0.313rem;
+
+}
+.button4{
+  font-style: normal;
+  font-weight: bold;
+  background-color:#5f4330;
+  border: 0.125rem solid #3C2A1E;
   color: white;
   float: left;
   width: 8rem;
@@ -314,8 +429,16 @@ button{
   font-size: 0.75rem;
   border-radius: 0.25rem;
 }
-.opnunartimi{
-  font-family: Lato, Helvetica, sans-serif;
+.button5{
+  background-color:white;
+  border: 0.125rem solid #6F4E37;
+  color: black;
+  float: left;
+  width: 20.625rem;
+  height: 2.75rem;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  border-radius: 0.313rem;
 }
 .opnunartimi h3 {
   font-style: normal;
@@ -332,9 +455,6 @@ button{
   font-weight: normal;
   margin-top: 0.25rem;
 }
-.hafdu{
-  font-family: Lato, Helvetica, sans-serif;
-}
 .hafdu h3{
   font-style: normal;
   font-weight: normal;
@@ -349,9 +469,6 @@ button{
   font-style: normal;
   font-weight: normal;
   margin-top: 0.25rem;
-}
-.annad{
-  font-family: Lato, Helvetica, sans-serif;  
 }
 .annad h3{
   font-style: normal;
@@ -369,7 +486,6 @@ button{
   margin-top: 0.25rem;
 }
 .copyright {
-  font-family: Lato, Helvetica, sans-serif;  
   font-size: 0.875rem;
   line-height: 1rem;
   padding: 1rem;
@@ -424,6 +540,9 @@ fieldset{
   display: flex;
   flex-direction: row;
 }
+<<<<<<< HEAD
 .kaup-cards{
   border-bottom: solid;
 }
+=======
+>>>>>>> f21098a40496db5bf6063b4626d1c1fd7586d850
