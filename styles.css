@@ -114,14 +114,25 @@ header img{
   position: absolute;
   top: 16rem;
 }
-.dæmi{
+.weird-div{
   display: flex;
   flex-direction: row;
-  background: linear-gradient(358deg, rgba(255,255,255,0) 11%, rgba(225,206,194,1) 11%, rgba(225,206,194,1) 75%, rgba(255,255,255,0) 75%);
+  max-width: 100%;
+}
+.dæmi{
+  display: flex;
+  justify-content: space-evenly;
+  background: rgb(255,255,255);
+  background: linear-gradient(358deg, #3C2A1E 11%, rgba(225,206,194,1) 11%, rgba(225,206,194,1) 75%, rgba(255,255,255,1) 75%);
+  height:37.5rem;
+  margin: 0;
+  padding:0;
+  line-height:1.563rem;
 }
 .dæmi .card{
   display: flex;
   flex-direction: column;
+  margin-top: 5rem;
 }
 .dæmi h3{
   position: absolute;
@@ -138,17 +149,7 @@ header img{
   margin-top:-1rem;
   line-height: 2rem;
 }
-.dæmi{
-  display: flex;
-  justify-content: space-evenly;
-  background: rgb(255,255,255);
 
-  background: linear-gradient(358deg, #3C2A1E 11%, rgba(225,206,194,1) 11%, rgba(225,206,194,1) 75%, rgba(255,255,255,1) 75%);
-  height:37.5rem;
-  margin: 0;
-  padding:0;
-  line-height:1.563rem;
-}
 
 footer{
   display:flex;
