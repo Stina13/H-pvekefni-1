@@ -501,6 +501,8 @@ fieldset{
   display: flex;
   flex-direction: row;
   margin: 1rem;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 .order{
   display: flex;
@@ -508,4 +510,8 @@ fieldset{
 }
 .kaup-cards{
   border-bottom: solid;
+}
+.kaup-inner{
+  display: flex;
+  flex-direction: row;
 }
