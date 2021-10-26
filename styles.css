@@ -1,6 +1,19 @@
 *{
+  /*box-sizing: border-box;*/
   margin: 0;
   padding:0;
+  font-family: Lato, Helvetica, sans-serif;
+}
+.wrapper {
+  /* Útbýr bil á milli lóðréttra eininga */
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 100%;
+  gap: var(--gutter);
+
+  margin: 0 auto;
+  width: calc(100% - (2 * var(--offset)));
+  max-width: var(--max-width);
 }
 header{
   display: flex;
@@ -12,6 +25,11 @@ header{
   justify-content: space-evenly;
   object-position: right;
 }
+.taeknibudin{
+  font-family: 'Lora', serif;
+  font-size: 2.5rem;
+}
+
 .kaplar {
   position: relative;
 }
@@ -31,10 +49,10 @@ header{
   background-size: cover;
 }
 
-
+/*
   background-size: cover;
   background-position: 100%;
-}
+} */
 
 header input{
   min-width: 30%;
@@ -138,18 +156,10 @@ header img{
   background: rgb(255,255,255);
 
   background: linear-gradient(358deg, rgba(255,255,255,0) 11%, rgba(225,206,194,1) 11%, rgba(225,206,194,1) 75%, rgba(255,255,255,0) 75%);
-  height:600px;
+  height:37.5rem;
   margin: 0;
   padding:0;
-  line-height:25px;
-
-  background: linear-gradient(357deg, rgba(255,255,255,0) 25%, rgba(225,206,194,1) 25%, rgba(225,206,194,1) 75%, rgba(255,255,255,0) 75%);
-  height:37.5rem;
-  margin: 1rem;
-  padding:1rem;
   line-height:1.563rem;
-
-
 }
 .vöruhus{
   display:absolute;
@@ -164,17 +174,10 @@ header img{
   background: rgb(255,255,255);
 
   background: linear-gradient(358deg, #3C2A1E 11%, rgba(225,206,194,1) 11%, rgba(225,206,194,1) 75%, rgba(255,255,255,1) 75%);
-  height:600px;
+  height:37.5rem;
   margin: 0;
   padding:0;
-  line-height:25px;
-
-  background: linear-gradient(357deg, rgba(255,255,255,0) 25%, rgba(225,206,194,1) 25%, rgba(225,206,194,1) 75%, rgba(255,255,255,0) 75%);
-  height:37.5rem;
-  margin: 1rem;
-  padding:1rem;
-  line-height: 1.563rem;
-
+  line-height:1.563rem;
 }
 
 footer{
@@ -355,9 +358,51 @@ fieldset{
 
   margin: 1rem;
 }
-button{
+.button1{
+  font-style: normal;
+  font-weight: bold;
   background-color:#5f4330;
-  border: none;
+  border: 0.125rem solid #3C2A1E;
+  color: white;
+  float: left;
+  width: 11.063rem;
+  height: 2.75rem;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  border-radius: 0.313rem;
+}
+.button2{
+  font-style: normal;
+  font-weight: bold;
+  background-color:white;
+  border: 0.125rem solid #6F4E37;
+  color: black;
+  float: left;
+  width: 18.75rem;
+  height: 2.75rem;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  border-radius: 0.313rem;
+}
+.button3{
+  font-style: normal;
+  font-weight: bold;
+  background-color:#5f4330;
+  border: 0.125rem solid #3C2A1E;
+  color: white;
+  float: left;
+  width: 11rem;
+  height: 2.75rem;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  border-radius: 0.313rem;
+
+}
+.button4{
+  font-style: normal;
+  font-weight: bold;
+  background-color:#5f4330;
+  border: 0.125rem solid #3C2A1E;
   color: white;
   float: left;
   width: 8rem;
@@ -365,8 +410,16 @@ button{
   font-size: 0.75rem;
   border-radius: 0.25rem;
 }
-.opnunartimi{
-  font-family: Lato, Helvetica, sans-serif;
+.button5{
+  background-color:white;
+  border: 0.125rem solid #6F4E37;
+  color: black;
+  float: left;
+  width: 20.625rem;
+  height: 2.75rem;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  border-radius: 0.313rem;
 }
 .opnunartimi h3 {
   font-style: normal;
@@ -382,9 +435,6 @@ button{
   font-style: normal;
   font-weight: normal;
   margin-top: 0.25rem;
-}
-.hafdu{
-  font-family: Lato, Helvetica, sans-serif;
 }
 .hafdu h3{
   font-style: normal;
@@ -402,7 +452,7 @@ button{
   margin-top: 0.25rem;
 }
 .annad{
-  font-family: Lato, Helvetica, sans-serif;  
+  font-family: Lato, Helvetica, sans-serif;
 }
 .annad h3{
   font-style: normal;
@@ -420,7 +470,8 @@ button{
   margin-top: 0.25rem;
 }
 .copyright {
-  font-family: Lato, Helvetica, sans-serif;  
+  font-family: Lato, Helvetica, sans-serif;
+
   font-size: 0.875rem;
   line-height: 1rem;
   padding: 1rem;
