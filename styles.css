@@ -4,8 +4,9 @@
   padding:0;
   font-family: Lato, Helvetica, sans-serif;
 }
+
 .wrapper {
-  /* Útbýr bil á milli lóðréttra eininga */
+  /*Útbýr bil á milli lóðréttra eininga*/
   display: grid;
   grid-template-rows: auto;
   grid-template-columns: 100%;
@@ -15,6 +16,7 @@
   width: calc(100% - (2 * var(20px)));
   max-width: var(1400px);
 }
+
 header{
   display: flex;
   margin: 1rem;
