@@ -442,17 +442,24 @@ header a{
   margin-top: 0.25rem;
 }
 .uppl{
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
   margin: 1rem;
+  width: 50%;
 }
 fieldset{
   display: flex;
   flex-direction: column;
-  max-width: fit-content;
+  align-items: stretch;
   border: none;
+  width: 100%;
 }
 .efri1{
   display: flex;
   flex-direction: row;
+  align-items: stretch;
+  width: 100%;
 }
 .efri2{
   display: flex;
@@ -471,26 +478,34 @@ fieldset{
   flex-direction: column;
   margin-right: 2rem;
   margin-bottom: 0.5rem;
+  width: 50%;
 }
 .kaup{
   display: flex;
   flex-direction: column;
   margin: 1rem;
+  width: 50%;
 }
 .kaup img{
-  max-width: 25%;
+  max-width: 20%;
   margin-right: 2rem;
 }
 .kaup-content{
   display: flex;
   flex-direction: row;
   margin: 1rem;
-  width: 50%;
+  width: 100%;
   align-items: center;
 }
 .order{
   display: flex;
   flex-direction: row;
+  margin-top: 5rem;
+  margin-right: 1rem;
+}
+.order h2{
+  margin-top: 2rem;
+  margin-bottom: 1rem;
 }
 .kaup-cards{
   border-bottom: solid;
@@ -499,4 +514,8 @@ fieldset{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  flex: 1;
+}
+.uppl button{
+  margin-top: 1rem;
 }
