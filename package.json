@@ -22,6 +22,7 @@
   "homepage": "https://github.com/Stina13/H-pvekefni-1#readme",
   "dependencies": {
     "browser-sync": "^2.27.5",
+    "node": "^17.0.1",
     "node-sass": "^6.0.1",
     "node.js": "0.0.1-security",
     "sudo": "^1.0.3"
