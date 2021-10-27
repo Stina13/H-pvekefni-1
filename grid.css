@@ -2,7 +2,6 @@
   display:grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(1, 1fr);
-
 }
 .flugmynd{
   grid-column: 3/4;
@@ -29,4 +28,80 @@
   grid-row: 1/1;
   width:50%;
 }
-
+@media(max-width: 321px){
+  *{
+    margin:0%;
+    padding:0%;
+  }
+  .tilbodsvika{
+    width:20rem;
+    font-size: 1.5rem;
+  }
+  .flug{
+    width:20rem;
+    display:flex;
+    flex-direction: column;
+    margin: 0rem;
+    padding:0rem;
+    align-items: center;
+    line-height: 2.5rem;
+  }
+  .nyjast{
+    width:20rem;
+    display:flex;
+    flex-direction: column;
+    margin: 0rem;
+    padding: 0rem;
+    align-items: center;
+    background: fill;
+  }
+  .vöruhus{
+    width:20rem;
+    display:flex;
+    flex-direction: column;
+    margin:0rem;
+    padding:0rem;
+  }
+  .vöruhustexti{
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    margin:0rem;
+    padding:0rem;
+    align-items: center;
+  }
+  .vöruhusmynd{
+    align-items: center;
+    width: 20rem;
+  }
+  .dæmi{
+    width:20rem;
+    display:flex;
+    flex-direction: column;
+    margin: 0rem;
+    padding: 0rem;
+    align-items: center;
+    background: fill;
+  }
+  .footer{
+    width:20rem;
+    display: flex;
+    flex-direction: column;
+    margin: 0rem;
+    padding:0rem;
+    align-items:center;
+  }
+  .card{
+    width: 20rem;
+    display:flex;
+    flex-direction: column;
+    margin:0rem;
+    padding:0rem;
+    align-items:center;
+    height: max-content;
+  }
+  img{
+    width:20rem;
+    height: max-content;
+  }
+}
