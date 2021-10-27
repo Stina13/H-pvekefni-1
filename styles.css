@@ -25,8 +25,7 @@ header{
   list-style: none;
   object-fit: cover;
   justify-content: space-evenly;
-  object-position: right;
-  position:relative;
+  position:absolute;
 }
 .taeknibudin{
   font-family: 'Lora', serif;
@@ -35,8 +34,26 @@ header{
 }
 .taeknibudinheader{
   font-family: 'Lora', serif;
-  font-size: 2.5rem;
-  position:relative;
+  font-size: 1.5rem;
+  position:absolute;
+  left:3.5rem;
+}
+svg{
+  position:absolute;
+  left:1rem;
+}
+.search{
+  position: absolute;
+  left:35rem;
+}
+.flokkar{
+  position:absolute;
+  left:50rem;
+  justify-content: space-between;
+}
+.kerra{
+  position:absolute;
+  left:73rem;
 }
 .kaplar {
   position: relative;
@@ -98,11 +115,11 @@ header img{
   flex-direction: row;
   justify-content: space-evenly;
   background: rgb(255,255,255);
-  background: linear-gradient(358deg, rgba(255,255,255,0) 11%, rgba(225,206,194,1) 11%, rgba(225,206,194,1) 75%, rgba(255,255,255,0) 75%);
+  background: linear-gradient(358deg, rgba(255,255,255,0) 11%, rgba(225,206,194,1) 11%, rgba(225,206,194,1) 80%, rgba(255,255,255,0) 75%);
   height:100%;
   margin: 0;
   padding:0;
-  line-height:1.563rem;
+  line-height:1.5rem;
   position: relative;
 }
 .nyjast .card {
@@ -130,11 +147,11 @@ header img{
   display: flex;
   justify-content: space-evenly;
   background: rgb(255,255,255);
-  background: linear-gradient(358deg, #3C2A1E 11%, rgba(225,206,194,1) 11%, rgba(225,206,194,1) 75%, rgba(255,255,255,1) 75%);
-  height:37.5rem;
+  background: linear-gradient(358deg, #3C2A1E 11%, rgba(225,206,194,1) 11%, rgba(225,206,194,1) 90%, rgba(255,255,255,1) 75%);
+  height:650px;
   margin: 0;
   padding:0;
-  line-height:1.563rem;
+  line-height:1.5rem;
 }
 .dæmi .card{
   display: flex;
@@ -157,7 +174,7 @@ header img{
   margin-top:-1rem;
   line-height: 2rem;
 }
-footer{
+.footer{
   display:flex;
   flex-direction: row;
   height:16.25rem;
@@ -320,7 +337,7 @@ header a{
   border: 0.125rem solid #6F4E37;
   color: black;
   float: left;
-  width: 18.75rem;
+  width: 16.75rem;
   height: 2.75rem;
   font-size: 0.875rem;
   line-height: 1.5rem;
