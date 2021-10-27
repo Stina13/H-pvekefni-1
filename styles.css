@@ -153,11 +153,10 @@ header img{
 .vöruhustexti{
   margin:1rem;
   padding:1rem;
+  line-height: 1.563rem;
   margin-top:-1rem;
   line-height: 2rem;
 }
-
-
 footer{
   display:flex;
   flex-direction: row;
@@ -172,23 +171,17 @@ ul{
   list-style: none;
   background: #FFFFFF;
 }
-.opnunartimi{
-  color:#FEFEFE;
-}
-.hafdu{
-  color:#FEFEFE;
-}
-.annad{
-  color:#FEFEFE;
-}
 .copyright{
   display: flex;
   flex-direction: row;
   justify-content: center;
   background: #3C2A1E;
   color: #FEFEFE;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  padding: 1rem;
+  border-top: 0.063rem solid #6F4E37;
 }
-
 .flokkar {
   display: flex;
   margin: 0.5rem;
@@ -370,6 +363,10 @@ header a{
   line-height: 1.5rem;
   border-radius: 0.313rem;
 }
+.opnunartimi{
+  color:#FEFEFE;
+}
+
 .opnunartimi h3 {
   font-style: normal;
   font-weight: normal;
@@ -384,6 +381,9 @@ header a{
   font-style: normal;
   font-weight: normal;
   margin-top: 0.25rem;
+}
+.hafdu{
+  color:#FEFEFE;
 }
 .hafdu h3{
   font-style: normal;
@@ -400,8 +400,8 @@ header a{
   font-weight: normal;
   margin-top: 0.25rem;
 }
-.annad{
-  font-family: Lato, Helvetica, sans-serif;
+.annad {
+  color: #FEFEFE;
 }
 .annad h3{
   font-style: normal;
@@ -417,14 +417,6 @@ header a{
   font-size: 1rem;
   line-height: 1.5rem;
   margin-top: 0.25rem;
-}
-.copyright {
-  font-family: Lato, Helvetica, sans-serif;
-
-  font-size: 0.875rem;
-  line-height: 1rem;
-  padding: 1rem;
-  border-top: 0.063rem solid #6F4E37;
 }
 .uppl{
   margin: 1rem;
