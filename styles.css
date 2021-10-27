@@ -25,8 +25,7 @@ header{
   list-style: none;
   object-fit: cover;
   justify-content: space-evenly;
-  object-position: right;
-  position:relative;
+  position:absolute;
 }
 .taeknibudin{
   font-family: 'Lora', serif;
@@ -35,8 +34,26 @@ header{
 }
 .taeknibudinheader{
   font-family: 'Lora', serif;
-  font-size: 2.5rem;
-  position:relative;
+  font-size: 1.5rem;
+  position:absolute;
+  left:3.5rem;
+}
+svg{
+  position:absolute;
+  left:1rem;
+}
+.search{
+  position: absolute;
+  left:35rem;
+}
+.flokkar{
+  position:absolute;
+  left:50rem;
+  justify-content: space-between;
+}
+.kerra{
+  position:absolute;
+  left:73rem;
 }
 .kaplar {
   position: relative;
@@ -98,11 +115,11 @@ header img{
   flex-direction: row;
   justify-content: space-evenly;
   background: rgb(255,255,255);
-  background: linear-gradient(358deg, rgba(255,255,255,0) 11%, rgba(225,206,194,1) 11%, rgba(225,206,194,1) 75%, rgba(255,255,255,0) 75%);
+  background: linear-gradient(358deg, rgba(255,255,255,0) 11%, rgba(225,206,194,1) 11%, rgba(225,206,194,1) 80%, rgba(255,255,255,0) 75%);
   height:100%;
   margin: 0;
   padding:0;
-  line-height:1.563rem;
+  line-height:1.5rem;
   position: relative;
 }
 .nyjast .card {
@@ -125,11 +142,11 @@ header img{
   display: flex;
   justify-content: space-evenly;
   background: rgb(255,255,255);
-  background: linear-gradient(358deg, #3C2A1E 11%, rgba(225,206,194,1) 11%, rgba(225,206,194,1) 75%, rgba(255,255,255,1) 75%);
-  height:37.5rem;
+  background: linear-gradient(358deg, #3C2A1E 11%, rgba(225,206,194,1) 11%, rgba(225,206,194,1) 90%, rgba(255,255,255,1) 75%);
+  height:650px;
   margin: 0;
   padding:0;
-  line-height:1.563rem;
+  line-height:1.5rem;
 }
 .dæmi .card{
   display: flex;
@@ -148,12 +165,11 @@ header img{
 .vöruhustexti{
   margin:1rem;
   padding:1rem;
+  line-height: 1.563rem;
   margin-top:-1rem;
   line-height: 2rem;
 }
-
-
-footer{
+.footer{
   display:flex;
   flex-direction: row;
   height:16.25rem;
@@ -167,23 +183,17 @@ ul{
   list-style: none;
   background: #FFFFFF;
 }
-.opnunartimi{
-  color:#FEFEFE;
-}
-.hafdu{
-  color:#FEFEFE;
-}
-.annad{
-  color:#FEFEFE;
-}
 .copyright{
   display: flex;
   flex-direction: row;
   justify-content: center;
   background: #3C2A1E;
   color: #FEFEFE;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  padding: 1rem;
+  border-top: 0.063rem solid #6F4E37;
 }
-
 .flokkar {
   display: flex;
   margin: 0.5rem;
@@ -322,7 +332,7 @@ header a{
   border: 0.125rem solid #6F4E37;
   color: black;
   float: left;
-  width: 18.75rem;
+  width: 16.75rem;
   height: 2.75rem;
   font-size: 0.875rem;
   line-height: 1.5rem;
@@ -365,6 +375,10 @@ header a{
   line-height: 1.5rem;
   border-radius: 0.313rem;
 }
+.opnunartimi{
+  color:#FEFEFE;
+}
+
 .opnunartimi h3 {
   font-style: normal;
   font-weight: normal;
@@ -379,6 +393,9 @@ header a{
   font-style: normal;
   font-weight: normal;
   margin-top: 0.25rem;
+}
+.hafdu{
+  color:#FEFEFE;
 }
 .hafdu h3{
   font-style: normal;
@@ -395,8 +412,8 @@ header a{
   font-weight: normal;
   margin-top: 0.25rem;
 }
-.annad{
-  font-family: Lato, Helvetica, sans-serif;
+.annad {
+  color: #FEFEFE;
 }
 .annad h3{
   font-style: normal;
@@ -412,14 +429,6 @@ header a{
   font-size: 1rem;
   line-height: 1.5rem;
   margin-top: 0.25rem;
-}
-.copyright {
-  font-family: Lato, Helvetica, sans-serif;
-
-  font-size: 0.875rem;
-  line-height: 1rem;
-  padding: 1rem;
-  border-top: 0.063rem solid #6F4E37;
 }
 .uppl{
   margin: 1rem;
