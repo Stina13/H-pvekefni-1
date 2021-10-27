@@ -180,7 +180,7 @@ header img{
   margin-top:-1rem;
   line-height: 2rem;
 }
-.footer{
+footer{
   display:flex;
   flex-direction: row;
   height:16.25rem;
