@@ -1,0 +1,14 @@
+// Sækja config
+// Allir stílar fyrir "global", þ.e.a.s. type selectorar, reset etc
+
+/* Setjum inn „reset“ sem fjarlægir margin og padding af öllu */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Reiknum stærð á öllum boxum sem border-box */
+  html {
+    box-sizing: border-box;
+  }
+  
