@@ -22,10 +22,11 @@
 .vöruhustexti{
   grid-column:3/4;
   grid-row: 1/1;
-  width:50%;
+  width:100%;
 }
 .vöruhusmynd{
   grid-column: 2/4;
   grid-row: 1/1;
   width:50%;
 }
+
