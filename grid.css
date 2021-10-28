@@ -33,6 +33,10 @@
     margin:0%;
     padding:0%;
   }
+  header{
+    width:20rem;
+    height:3rem;
+  }
   .tilbodsvika{
     width:20rem;
     font-size: 1.5rem;
@@ -101,7 +105,7 @@
     height: max-content;
   }
   img{
-    width:20rem;
+    width:18rem;
     height: max-content;
   }
 }
