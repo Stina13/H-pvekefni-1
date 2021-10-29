@@ -28,7 +28,7 @@
   grid-row: 1/1;
   width:50%;
 }
-@media(max-width: 321px){
+@media(max-width: 320px){
   *{
     margin:0%;
     padding:0%;
@@ -87,27 +87,30 @@
     width:20rem;
     display: flex;
     flex-direction: column;
-    margin: 0rem;
     padding:0rem;
     align-items:center;
+  }
+  .umcard {
+    display: flex;
+    flex-direction: column;
   }
   .card{
-    width: 20rem;
     display:flex;
     flex-direction: column;
-    margin:0rem;
-    padding:0rem;
-    align-items:center;
-    height: max-content;
+    max-width: 100%;
   }
   img{
-    width:17rem;
     height: max-content;
+  }
+  .img-container {
+    width: 100%;
   }
   .taeknibudinheader{
     display:block;
     left: 2rem;
     font-size: 85%;
+  }
+  .taeknibudin{
   }
   svg{
     display: block;
