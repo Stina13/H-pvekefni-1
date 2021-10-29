@@ -33,12 +33,8 @@
     margin:0%;
     padding:0%;
   }
-  header{
-    width:20rem;
-    height:3rem;
-  }
   .tilbodsvika{
-    width:20rem;
+    width:19.5rem;
     font-size: 1.5rem;
   }
   .flug{
@@ -104,8 +100,42 @@
     align-items:center;
     height: max-content;
   }
+  .nyjast .card{
+    width:20rem;
+  }
   img{
     width:18rem;
     height: max-content;
   }
+  .taeknibudinheader{
+    display:block;
+    left: 2rem;
+    font-size: 85%;
+  }
+  svg{
+    display: block;
+    left:0.1rem;
+  }
+  .kerra{
+    display: block;
+    left:20rem;
+  }
+  .listi{
+    display:block;
+    position:absolute;
+    left:13rem;
+    top:1.2rem;
+    border-style: none;
+    list-style: none;
+
+  }
+  .search{
+    display: block;
+    left:-12rem;
+  }
+  .flokkar{
+    display: block;
+    left:-10rem;
+  }
+
 }
