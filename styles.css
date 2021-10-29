@@ -39,21 +39,25 @@ header{
   display: block;
   position:absolute;
   left:4.5rem;
+  top:0.5rem;
 }
 svg{
   display: block;
   position:absolute;
   left:1.5rem;
+  top:0.7rem;
 }
 .search{
   position: absolute;
   display:block;
   left:35rem;
+  top:1rem;
 }
 .flokkar{
   position:absolute;
   display: block;
   left:50rem;
+  top:-0.5rem;
   justify-content: space-between;
 }
 .kerra{
