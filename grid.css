@@ -83,7 +83,7 @@
     align-items: center;
     background: fill;
   }
-  .footer{
+  footer{
     width:20rem;
     display: flex;
     flex-direction: column;
@@ -115,10 +115,6 @@
   svg{
     display: block;
     left:0.1rem;
-  }
-  .kerra{
-    display: block;
-    left:20rem;
   }
   .listi{
     display:block;
