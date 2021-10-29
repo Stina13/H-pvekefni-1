@@ -32,6 +32,7 @@ header{
   font-size: 2.5rem;
   position:absolute;
   display: block;
+  width: 100%;
 }
 .taeknibudinheader{
   font-family: 'Lora', serif;
@@ -140,7 +141,6 @@ header img{
 .nyjast .card {
   display: flex;
   flex-direction: column;
-  max-width: 21.5%;
   margin: 0.2rem;
   margin-top: 20em;
   margin-bottom: 10em;
